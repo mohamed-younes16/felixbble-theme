@@ -1,4 +1,4 @@
-import { footerLinks } from "@/app/constants"
+import { footerLinks } from "../app/constants"
 import Image from "next/image"
 import Link from "next/link"
 
@@ -6,7 +6,7 @@ import Link from "next/link"
 const FooterBanner = () => {
 
   return (
-    <><div className='flex flex-col gap-10 items-start paddings'>
+    <><div className='flex mt-32 flex-col gap-10 items-start paddings'>
         
         <div>
           <Image src="/logo-purple.svg" width={150} height={60} alt="logo image"/>
@@ -26,7 +26,7 @@ const FooterBanner = () => {
         </div>
       
     </div>
-    <div className="flexBetween !text-xl footer_copyright">
+    <div className="flexBetween  paddings !text-xl footer_copyright">
 
       <p>@ 2023 Felixble All  Right Reserved  </p>
       <p  className="text-gray"> <span className="texxt-black font-bold"> 30 </span> project submitted   </p>

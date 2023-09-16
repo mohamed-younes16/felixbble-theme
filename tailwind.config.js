@@ -1,5 +1,6 @@
 /** @type {import('tailwindcss').Config} */
 module.exports = {
+  darkMode: ['class'],
   content: [
     './pages/**/*.{js,ts,jsx,tsx,mdx}',
     './components/**/*.{js,ts,jsx,tsx,mdx}',
@@ -7,6 +8,14 @@ module.exports = {
   ],
   theme: {
     extend: {
+
+
+      rotate:{
+        "y-90":"y 90deg",
+        "y-0":"y 0deg",
+        
+      },
+
       colors: {
         'nav-border': '#EBEAEA',
         'light-white': '#FAFAFB',

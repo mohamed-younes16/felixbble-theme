@@ -10,6 +10,7 @@
   },
   "dependencies": {
     "@headlessui/react": "^1.7.17",
+    "@heroicons/react": "^2.0.18",
     "@sanity/cli": "^3.16.4",
     "@sanity/image-url": "^1.0.2",
     "@sanity/vision": "^3.16.4",
@@ -17,6 +18,7 @@
     "@types/jsonwebtoken": "^9.0.2",
     "autoprefixer": "10.4.15",
     "cloudinary": "^1.40.0",
+    "encoding": "^0.1.13",
     "eslint": "8.48.0",
     "eslint-config-next": "13.4.19",
     "graphql-request": "^6.1.0",
