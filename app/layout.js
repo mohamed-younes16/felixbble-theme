@@ -21,8 +21,8 @@ export default function RootLayout({ children }) {
           <Provider>
    
                 <main suppressHydrationWarning={true} className=" dark:text-white
-                from-slate-100  to-[#cac6e7]  dark:from-[#09090e] bg-fixed dark:from-[80%] 
-                dark:to-[#131120] bg-gradient-to-b !pt-20 overflow-x-hidden main-container">
+                 transition-all  dark:bg-[url(/blob.svg)] bg-fixed backdrop-blur-lg  bg-[url(/blobLight.svg)] 
+                !pt-20 overflow-x-hidden main-container">
                   <Nav/>
                   
                   <Toaster position='top-center'/>

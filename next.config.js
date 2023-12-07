@@ -9,7 +9,7 @@ const nextConfig = {experimental: {
             "cdn.sanity.io"
           ,"avatars.githubusercontent.com",
           "lh3.googleusercontent.com",
-          "res.cloudinary.com"
+          "res.cloudinary.com","utfs.io"
         ],
       },
 }

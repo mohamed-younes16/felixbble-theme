@@ -71,7 +71,7 @@ const Modal = ({children}) => {
                                     </Transition.Child>
 
                                 
-                                        <button  className=" fixed top-6 right-6 z-50  animate-bounce shadow-lg transition hover:shadow-red-600 ">
+                                        <button  className=" fixed top-6 right-6 z-50  bg-none shadow-lg transition hover:shadow-red-600 ">
                                             <Image src={closesvg} height={30} width={30} alt='close button'/>
                                     </button>
                             </div>

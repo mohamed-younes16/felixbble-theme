@@ -1,6 +1,4 @@
 
-import React from 'react'
-
 const FormField = ({title,name, setstate,placeholder , state , isTextArea}) => {
 
   return (<div className='flexStart flex-col gap-4 relative z-50'>

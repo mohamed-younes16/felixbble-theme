@@ -1,5 +1,6 @@
+import ProjectCard from "@/components/ProjectCard"
 import Categories from "/components/Categories"
-import ProjectCard from "/components/ProjectCard"
+
 import { fetchProjects } from "/lib/actions"
 
 

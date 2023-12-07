@@ -132,7 +132,7 @@ body {
 }
 .categories::-webkit-scrollbar{
   cursor: pointer;
-  height: 15px
+  height: 10px
 }
 .categories::-webkit-scrollbar-thumb{
 cursor: pointer;
@@ -142,7 +142,7 @@ cursor: pointer;
 @media (prefers-color-scheme: dark) {
   .dark .categories::-webkit-scrollbar-thumb{
 
-    background-color: rgb(74, 6, 141)
+    background-color: rgb(166, 166, 166)
    }
 }
 /* Modal */
