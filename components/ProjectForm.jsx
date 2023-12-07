@@ -15,11 +15,10 @@ const ProjectForm = ({ type, session, pr, id }) => {
   const [sub, setsub] = useState(false);
   const [valid, setvalid] = useState(false);
   const router = useRouter();
-  const [currentimage, setImage] = useState("");
+  const [currentimage, setImage] = useState(pr?.image || "");
   const [form, setForm] = useState({
     title: pr?.title || "",
     description: pr?.description || "",
-    image: pr?.image || "",
     liveSiteUrl: pr?.liveSiteUrl || "",
     githubUrl: pr?.githubUrl || "",
     category: pr?.category || "",
